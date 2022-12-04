@@ -1,0 +1,13 @@
+anArray := Array new: 10.
+1 to: 10 do:
+	[:index |
+	anArray at: index
+		put: (aValue * index)].
+anIndex := 1.
+[anIndex <= anArray size]
+	whileTrue:
+	[Transcript show:
+		'Value at:', (anIndex printString),
+		'is',
+	(anArray at: anIndex) printString; cr.
+	anIndex := anIndex + 1.]
