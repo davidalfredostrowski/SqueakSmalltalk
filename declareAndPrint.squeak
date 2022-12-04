@@ -1,0 +1,3 @@
+aValue := 2.
+Transcript cr.
+Transcript show: aValue
