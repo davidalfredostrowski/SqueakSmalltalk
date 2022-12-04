@@ -1,0 +1,21 @@
+x := 9.
+3=4 ifTrue: [ x := 10].
+Transcript show: x. 
+
+
+x:= 1.
+y:= 2.
+x = y
+ ifTrue: [ x:= 8] 
+ ifFalse:  [ x:= 9].
+Transcript show: x.
+
+
+
+
+
+
+output is 
+
+99
+
