@@ -1,0 +1,12 @@
+a :=1.
+b := 2.
+((a < 12) and: [b > 13])
+ifTrue: [Transcript show: 'True']
+ifFalse:[Transcript show: 'False'].
+
+
+
+
+
+output: 
+False
