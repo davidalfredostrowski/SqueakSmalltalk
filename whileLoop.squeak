@@ -1,0 +1,11 @@
+a :=1.
+[ a< 10]  whileTrue:
+	[a :=  a + 1. Transcript show: '9 times....'].
+  
+  
+  output
+  
+  9 times....9 times....9 times....9 times....9 times....9 times....9 times....9 times....9 times....
+  
+  
+  
