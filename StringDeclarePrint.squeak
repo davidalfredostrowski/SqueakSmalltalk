@@ -1,0 +1,2 @@
+aVariable := 'here is a string'.
+Transcript show: aVariable
