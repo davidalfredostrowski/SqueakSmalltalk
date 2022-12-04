@@ -1,0 +1,10 @@
+x := 9.
+3=4 ifTrue: [ x := 10].
+Transcript show: x. 
+
+
+
+
+
+
+output 9
