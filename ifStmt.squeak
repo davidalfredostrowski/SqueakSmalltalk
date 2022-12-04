@@ -1,0 +1,7 @@
+a := 2.
+a < 12 ifTrue: [Transcript show: 'True!']
+
+
+
+output
+True!
